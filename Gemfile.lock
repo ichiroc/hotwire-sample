@@ -190,23 +190,19 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootsnap (>= 1.4.4)
+  bootsnap
   byebug
   haml-rails
-  jbuilder (~> 2.7)
-  listen (~> 3.3)
-  puma (~> 5.0)
-  rack-mini-profiler (~> 2.0)
-  rails (~> 6.1.0)
-  sass-rails (>= 6)
+  jbuilder
+  listen
+  puma
+  rack-mini-profiler
+  rails (= 6.1.0)
+  sass-rails
   spring
-  sqlite3 (~> 1.4)
-  turbolinks (~> 5)
-  tzinfo-data
-  web-console (>= 4.1.0)
-
-RUBY VERSION
-   ruby 2.7.2p137
+  sqlite3
+  turbolinks
+  web-console
 
 BUNDLED WITH
    2.1.4
