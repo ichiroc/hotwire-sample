@@ -13,6 +13,7 @@ gem 'bootsnap', require: false
 gem 'haml-rails'
 
 gem 'hotwire-rails'
+gem 'redis'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
