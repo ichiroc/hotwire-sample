@@ -12,6 +12,8 @@ gem 'jbuilder'
 gem 'bootsnap', require: false
 gem 'haml-rails'
 
+gem 'hotwire-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -19,7 +21,7 @@ end
 
 group :development do
   gem 'web-console'
-  gem 'rack-mini-profiler'
+  # gem 'rack-mini-profiler'
   gem 'listen'
   gem 'spring'
 end
