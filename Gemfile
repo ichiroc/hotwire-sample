@@ -24,4 +24,5 @@ group :development do
   # gem 'rack-mini-profiler'
   gem 'listen'
   gem 'spring'
+  gem 'pry'
 end
