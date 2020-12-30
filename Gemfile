@@ -16,6 +16,7 @@ gem 'hotwire-rails'
 gem 'webpacker'
 gem 'redis'
 gem 'react_on_rails'
+gem 'vue_custom_element_rails', github: 'SonicGarden/vue-custom-element-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

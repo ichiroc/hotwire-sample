@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/SonicGarden/vue-custom-element-rails.git
+  revision: ee788a54032f1a837f0639a928e1be9e99570576
+  specs:
+    vue_custom_element_rails (0.2.1)
+      dekiru (>= 0.1.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,6 +78,10 @@ GEM
     concurrent-ruby (1.1.7)
     connection_pool (2.2.3)
     crass (1.0.6)
+    dekiru (0.1.9)
+      http_accept_language (>= 2.0.0)
+      rails
+      ruby-progressbar
     erubi (1.10.0)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -95,6 +106,7 @@ GEM
       haml (>= 4.0, < 6)
       nokogiri (>= 1.6.0)
       ruby_parser (~> 3.5)
+    http_accept_language (2.1.1)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.1)
@@ -168,6 +180,7 @@ GEM
       rainbow (~> 3.0)
       webpacker (>= 4.0)
     redis (4.2.5)
+    ruby-progressbar (1.10.1)
     ruby_parser (3.15.0)
       sexp_processor (~> 4.9)
     sass-rails (6.0.0)
@@ -237,6 +250,7 @@ DEPENDENCIES
   spring
   sqlite3
   turbolinks
+  vue_custom_element_rails!
   web-console
   webpacker
 
