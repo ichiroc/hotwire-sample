@@ -1,9 +1,11 @@
 %h1 New Message
 
-= turbo_frame_tag 'new_message' do
-  = form_with(model: [@message.room, @message], data: { controller: 'reset_form', action: 'turbo:submit-end->reset_form#reset' }) do |f|
+= turbo_frame_tag 'new_message', target: '_top' do
+  = form_with(model: [@message.room, @message], data: { controller: 'form', action: 'turbo:submit-end->form#reset' }) do |f|
     .field
-      = f.text_field :content
+      = f.text_field :content, data: { action: 'keyup->form#preview' }
       = f.submit 'Send'
+    %pre{ data: { 'form_target': 'preview' }}
+
 
 = link_to 'Back', @message.room
