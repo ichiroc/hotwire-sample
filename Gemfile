@@ -15,6 +15,7 @@ gem 'haml-rails'
 gem 'hotwire-rails'
 gem 'webpacker'
 gem 'redis'
+gem 'react_on_rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
