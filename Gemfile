@@ -13,6 +13,7 @@ gem 'bootsnap', require: false
 gem 'haml-rails'
 
 gem 'hotwire-rails'
+gem 'webpacker'
 gem 'redis'
 
 group :development, :test do
