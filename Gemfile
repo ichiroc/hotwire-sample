@@ -30,3 +30,4 @@ group :development do
   gem 'spring'
   gem 'pry'
 end
+gem 'mini_racer', platforms: :ruby

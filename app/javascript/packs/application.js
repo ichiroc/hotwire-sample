@@ -8,6 +8,7 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "@hotwired/turbo-rails"
 import '../init_vue'
+import '../init_react'
 
 Rails.start()
 ActiveStorage.start()
